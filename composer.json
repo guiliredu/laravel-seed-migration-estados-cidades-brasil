@@ -1,0 +1,55 @@
+{
+    "name": "guiliredu/laravel-seed-migration-estados-cidades-brasil",
+    "description": "Pacote com informações de todas cidades e estados brasileiros.",
+    "keywords": [
+        "guiliredu",
+        "laravel-seed-migration-estados-cidades-brasil"
+    ],
+    "homepage": "https://github.com/guiliredu/laravel-seed-migration-estados-cidades-brasil",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Guilherme Redu",
+            "email": "guiliredu@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.7.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.7.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guiliredu\\BrazilianCityMigrationSeed\\": "src",
+            "Guiliredu\\BrazilianCityMigrationSeed\\Database\\Seeds\\": "database/seeds"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Guiliredu\\BrazilianCityMigrationSeed\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guiliredu\\BrazilianCityMigrationSeed\\BrazilianCityMigrationSeedServiceProvider"
+            ],
+            "aliases": {
+                "BrazilianCityMigrationSeed": "Guiliredu\\BrazilianCityMigrationSeed\\BrazilianCityMigrationSeedFacade"
+            }
+        }
+    }
+}
