@@ -37,7 +37,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
@@ -46,10 +45,7 @@
         "laravel": {
             "providers": [
                 "Guiliredu\\BrazilianCityMigrationSeed\\BrazilianCityMigrationSeedServiceProvider"
-            ],
-            "aliases": {
-                "BrazilianCityMigrationSeed": "Guiliredu\\BrazilianCityMigrationSeed\\BrazilianCityMigrationSeedFacade"
-            }
+            ]
         }
     }
 }
