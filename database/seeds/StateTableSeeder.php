@@ -1,4 +1,5 @@
 <?php
+namespace Guiliredu\BrazilianCityMigrationSeed\Database\Seeds;
 
 use Illuminate\Database\Seeder;
 
@@ -12,12 +13,8 @@ class StateTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
-        \DB::table('states')->delete();
-        
         \DB::table('states')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => '1',
                 'title' => 'Acre',
@@ -26,7 +23,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'acre',
                 'population' => '816687',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => '2',
                 'title' => 'Alagoas',
@@ -35,7 +32,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'alagoas',
                 'population' => '3358963',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => '3',
                 'title' => 'Amazonas',
@@ -44,7 +41,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'amazonas',
                 'population' => '4001667',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => '4',
                 'title' => 'Amapá',
@@ -53,7 +50,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'amapa',
                 'population' => '782295',
             ),
-            4 => 
+            4 =>
             array (
                 'id' => '5',
                 'title' => 'Bahia',
@@ -62,7 +59,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'bahia',
                 'population' => '15276566',
             ),
-            5 => 
+            5 =>
             array (
                 'id' => '6',
                 'title' => 'Ceará',
@@ -71,7 +68,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'ceara',
                 'population' => '8963663',
             ),
-            6 => 
+            6 =>
             array (
                 'id' => '7',
                 'title' => 'Distrito Federal',
@@ -80,7 +77,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'distrito-federal',
                 'population' => '2977216',
             ),
-            7 => 
+            7 =>
             array (
                 'id' => '8',
                 'title' => 'Espírito Santo',
@@ -89,7 +86,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'espirito-santo',
                 'population' => '3973697',
             ),
-            8 => 
+            8 =>
             array (
                 'id' => '9',
                 'title' => 'Goiás',
@@ -98,7 +95,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'goias',
                 'population' => '6695855',
             ),
-            9 => 
+            9 =>
             array (
                 'id' => '10',
                 'title' => 'Maranhão',
@@ -107,7 +104,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'maranhao',
                 'population' => '6954036',
             ),
-            10 => 
+            10 =>
             array (
                 'id' => '11',
                 'title' => 'Minas Gerais',
@@ -116,7 +113,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'minas-gerais',
                 'population' => '20997560',
             ),
-            11 => 
+            11 =>
             array (
                 'id' => '12',
                 'title' => 'Mato Grosso do Sul',
@@ -125,7 +122,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'mato-grosso-do-sul',
                 'population' => '2682386',
             ),
-            12 => 
+            12 =>
             array (
                 'id' => '13',
                 'title' => 'Mato Grosso',
@@ -134,7 +131,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'mato-grosso',
                 'population' => '3305531',
             ),
-            13 => 
+            13 =>
             array (
                 'id' => '14',
                 'title' => 'Pará',
@@ -143,7 +140,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'para',
                 'population' => '8272724',
             ),
-            14 => 
+            14 =>
             array (
                 'id' => '15',
                 'title' => 'Paraiba',
@@ -152,7 +149,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'paraiba',
                 'population' => '3999415',
             ),
-            15 => 
+            15 =>
             array (
                 'id' => '16',
                 'title' => 'Pernambuco',
@@ -161,7 +158,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'pernambuco',
                 'population' => '9410336',
             ),
-            16 => 
+            16 =>
             array (
                 'id' => '17',
                 'title' => 'Piauí',
@@ -170,7 +167,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'piaui',
                 'population' => '3212180',
             ),
-            17 => 
+            17 =>
             array (
                 'id' => '18',
                 'title' => 'Paraná',
@@ -179,7 +176,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'parana',
                 'population' => '11242720',
             ),
-            18 => 
+            18 =>
             array (
                 'id' => '19',
                 'title' => 'Rio de Janeiro',
@@ -188,7 +185,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'rio-de-janeiro',
                 'population' => '16635996',
             ),
-            19 => 
+            19 =>
             array (
                 'id' => '20',
                 'title' => 'Rio Grande do Norte',
@@ -197,7 +194,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'rio-grande-do-norte',
                 'population' => '3474998',
             ),
-            20 => 
+            20 =>
             array (
                 'id' => '21',
                 'title' => 'Rondônia',
@@ -206,7 +203,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'rondonia',
                 'population' => '1787279',
             ),
-            21 => 
+            21 =>
             array (
                 'id' => '22',
                 'title' => 'Roraima',
@@ -215,7 +212,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'roraima',
                 'population' => '514229',
             ),
-            22 => 
+            22 =>
             array (
                 'id' => '23',
                 'title' => 'Rio Grande do Sul',
@@ -224,7 +221,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'rio-grande-do-sul',
                 'population' => '11286500',
             ),
-            23 => 
+            23 =>
             array (
                 'id' => '24',
                 'title' => 'Santa Catarina',
@@ -233,7 +230,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'santa-catarina',
                 'population' => '6910553',
             ),
-            24 => 
+            24 =>
             array (
                 'id' => '25',
                 'title' => 'Sergipe',
@@ -242,7 +239,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'sergipe',
                 'population' => '2265779',
             ),
-            25 => 
+            25 =>
             array (
                 'id' => '26',
                 'title' => 'São Paulo',
@@ -251,7 +248,7 @@ class StateTableSeeder extends Seeder
                 'slug' => 'sao-paulo',
                 'population' => '44749699',
             ),
-            26 => 
+            26 =>
             array (
                 'id' => '27',
                 'title' => 'Tocantins',
@@ -261,7 +258,5 @@ class StateTableSeeder extends Seeder
                 'population' => '1532902',
             ),
         ));
-        
-        
     }
 }
