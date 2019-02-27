@@ -68,7 +68,7 @@ Se você descobrir algum bug, abra uma issue no Github.
 - [Guilherme Redu](https://github.com/guiliredu)
 - [All Contributors](../../contributors)
 
-## Licensa
+## Licença
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
