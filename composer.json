@@ -3,7 +3,8 @@
     "description": "Pacote com informações de todas cidades e estados brasileiros.",
     "keywords": [
         "guiliredu",
-        "laravel-seed-migration-estados-cidades-brasil"
+        "laravel-seed-migration-estados-cidades-brasil",
+        "seed cidades brasileiras"
     ],
     "homepage": "https://github.com/guiliredu/laravel-seed-migration-estados-cidades-brasil",
     "license": "MIT",
@@ -17,7 +18,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "illuminate/support": "^6.0"
+        "illuminate/support": ">=6.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
