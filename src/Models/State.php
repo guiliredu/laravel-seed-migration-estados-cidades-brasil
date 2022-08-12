@@ -12,4 +12,10 @@ class State extends Model
     {
         return $this->hasMany('Guiliredu\BrazilianCityMigrationSeed\Models\City');
     }
+
+    public function region()
+    {
+        return $this->belongsTo('Guiliredu\BrazilianCityMigrationSeed\Models\Region');
+    }
+
 }
