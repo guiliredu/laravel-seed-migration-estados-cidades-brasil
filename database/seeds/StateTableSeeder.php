@@ -22,6 +22,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '12',
                 'slug' => 'acre',
                 'population' => '816687',
+                'region_id' => 1
             ),
             1 =>
             array (
@@ -31,6 +32,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '27',
                 'slug' => 'alagoas',
                 'population' => '3358963',
+                'region_id' => 2
             ),
             2 =>
             array (
@@ -40,6 +42,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '13',
                 'slug' => 'amazonas',
                 'population' => '4001667',
+                'region_id' => 1
             ),
             3 =>
             array (
@@ -49,6 +52,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '16',
                 'slug' => 'amapa',
                 'population' => '782295',
+                'region_id' => 1                
             ),
             4 =>
             array (
@@ -58,6 +62,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '29',
                 'slug' => 'bahia',
                 'population' => '15276566',
+                'region_id' => 2
             ),
             5 =>
             array (
@@ -67,6 +72,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '23',
                 'slug' => 'ceara',
                 'population' => '8963663',
+                'region_id' => 2
             ),
             6 =>
             array (
@@ -76,6 +82,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '53',
                 'slug' => 'distrito-federal',
                 'population' => '2977216',
+                'region_id' => 3
             ),
             7 =>
             array (
@@ -85,6 +92,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '32',
                 'slug' => 'espirito-santo',
                 'population' => '3973697',
+                'region_id' => 4
             ),
             8 =>
             array (
@@ -94,6 +102,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '52',
                 'slug' => 'goias',
                 'population' => '6695855',
+                'region_id' => 3
             ),
             9 =>
             array (
@@ -103,6 +112,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '21',
                 'slug' => 'maranhao',
                 'population' => '6954036',
+                'region_id' => 2
             ),
             10 =>
             array (
@@ -112,6 +122,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '31',
                 'slug' => 'minas-gerais',
                 'population' => '20997560',
+                'region_id' => 4
             ),
             11 =>
             array (
@@ -121,6 +132,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '50',
                 'slug' => 'mato-grosso-do-sul',
                 'population' => '2682386',
+                'region_id' => 3
             ),
             12 =>
             array (
@@ -130,6 +142,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '51',
                 'slug' => 'mato-grosso',
                 'population' => '3305531',
+                'region_id' => 3
             ),
             13 =>
             array (
@@ -139,6 +152,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '15',
                 'slug' => 'para',
                 'population' => '8272724',
+                'region_id' => 1
             ),
             14 =>
             array (
@@ -148,6 +162,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '25',
                 'slug' => 'paraiba',
                 'population' => '3999415',
+                'region_id' => 2
             ),
             15 =>
             array (
@@ -157,6 +172,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '26',
                 'slug' => 'pernambuco',
                 'population' => '9410336',
+                'region_id' => 2
             ),
             16 =>
             array (
@@ -166,6 +182,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '22',
                 'slug' => 'piaui',
                 'population' => '3212180',
+                'region_id' => 2
             ),
             17 =>
             array (
@@ -175,6 +192,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '41',
                 'slug' => 'parana',
                 'population' => '11242720',
+                'region_id' => 5
             ),
             18 =>
             array (
@@ -184,6 +202,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '33',
                 'slug' => 'rio-de-janeiro',
                 'population' => '16635996',
+                'region_id' => 4
             ),
             19 =>
             array (
@@ -193,6 +212,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '24',
                 'slug' => 'rio-grande-do-norte',
                 'population' => '3474998',
+                'region_id' => 2
             ),
             20 =>
             array (
@@ -202,6 +222,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '11',
                 'slug' => 'rondonia',
                 'population' => '1787279',
+                'region_id' => 1
             ),
             21 =>
             array (
@@ -211,6 +232,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '14',
                 'slug' => 'roraima',
                 'population' => '514229',
+                'region_id' => 1
             ),
             22 =>
             array (
@@ -220,6 +242,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '43',
                 'slug' => 'rio-grande-do-sul',
                 'population' => '11286500',
+                'region_id' => 5
             ),
             23 =>
             array (
@@ -229,6 +252,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '42',
                 'slug' => 'santa-catarina',
                 'population' => '6910553',
+                'region_id' => 5
             ),
             24 =>
             array (
@@ -238,6 +262,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '28',
                 'slug' => 'sergipe',
                 'population' => '2265779',
+                'region_id' => 2
             ),
             25 =>
             array (
@@ -247,6 +272,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '35',
                 'slug' => 'sao-paulo',
                 'population' => '44749699',
+                'region_id' => 4
             ),
             26 =>
             array (
@@ -256,6 +282,7 @@ class StateTableSeeder extends Seeder
                 'iso' => '17',
                 'slug' => 'tocantins',
                 'population' => '1532902',
+                'region_id' => 1
             ),
         ));
     }

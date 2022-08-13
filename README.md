@@ -24,6 +24,10 @@ A tabela `cities` contém:
 - Latitude e longitude
 - Renda per-capita
 
+A tabela `regions` contém:
+
+- Título e slug
+
 ## Instalação
 
 Você pode instalar este pacote via composer:
